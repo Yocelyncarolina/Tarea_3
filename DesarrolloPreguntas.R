@@ -70,11 +70,61 @@ for(listaDeNumeros in 1:11){
 
 length(listaDeNumeros)
 
-for(i in 1:length(listaDeNumeros)){
-  if(unlist([i])+1%%2==0){
-    print("par")
-  }
+for(listaDeNumeros in length(listaDeNumeros)){
+  if(listaDeNumeros%%2==0){
+    print(paste("par"))
+  }else("impar)")
 }
 
 
+#Pregunta 9
+votoSi<-35
+votoNo<-20
+PadronElectoral<-votoSi+votoNo
 
+#Pregunta 10
+Suma<-function(a,b){
+  a+b
+}
+
+Suma(3,4)
+#la suma de (3,4) arroja un resultado de 7
+
+Resta<-function(a,b){
+  a-b
+}
+
+Resta(3,4)
+#la resta de (3,4) arroja un resultado de -1
+
+Multiplicacion<-function(a,b){
+  a*b
+}
+
+Multiplicacion(3,4)
+#la multiplicacion de (3,4) arroja un resultado de 12
+
+Division<-function(a,b){
+  a/b
+}
+
+Division(3,4)
+#la division de (3,4) arroja un resultado 0.75
+
+#Pregunta 11
+
+
+
+
+#Ejercicio opcional
+
+for(i in listaDeNumeros){
+  print(i)
+}
+
+for(i in 1:15){
+   print(i)
+}
+
+#cuando se hace con lista se ejecutan todos los numeros de la lista en el orden en que estan 
+#cuando se hace con rango ejecuta los numeros del rango en orden correlativo
