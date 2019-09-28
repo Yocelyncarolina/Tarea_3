@@ -26,10 +26,13 @@ if(unlist(listaDeNumeros[5])+1>0){
 #con unlist aparece [1] 1
 
 #Pregunta 3
+
 listaDeNumeros[5]<-12
+
 #se ejecuta el texto "listaDeNumeros[5]<-12" en la consola
 
 #Pregunta 4
+
 length(listaDeNumeros)
 
 #se reemplaza "nombre_variable" por "listaDeNumeros"
@@ -72,15 +75,31 @@ length(listaDeNumeros)
 
 for(listaDeNumeros in length(listaDeNumeros)){
   if(listaDeNumeros%%2==0){
-    print(paste("par"))
-  }else("impar)")
-}
-
+    print("par")
+  }else
+    print("impar")
+  }
 
 #Pregunta 9
-votoSi<-35
+
+votoSi<-34
 votoNo<-20
-PadronElectoral<-votoSi+votoNo
+PadronElectoral<-70
+Quorum<-PadronElectoral*0.5+1
+total<-votoSi+votoNo
+
+if(total<Quorum){
+  if (votoSi>0.3*total||votoNo>0.3*total)
+    print("Si||No")
+} else {
+    ("No")
+  }
+ 
+if(votoSi>votoNo){
+  print("Si")
+}else {
+  print("No")
+}
 
 #Pregunta 10
 Suma<-function(a,b){

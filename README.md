@@ -9,8 +9,9 @@ Si reemplazo por -5 me ejecuta todos los numeros de la lista excepto el que esta
 
 **Ejercicio 2**
 
-con unlist aparece [1] 1
-con listaDe numeros aparece 
+con listaDeNumeros aparece 
+[1] 1
+agregando unlist aparece 
 [[1]]
 [1] 1
 
@@ -39,8 +40,32 @@ cuando reemplazo los datos del primer ejercio se genera "cuento" y "yocelyn" con
 
 **Ejercicio 8**
 
+*codigo*
+
+for(listaDeNumeros in length(listaDeNumeros)){
+  if(listaDeNumeros%%2==0){
+    print("par")
+  }else
+    print("impar")
+  }
+
 
 **Ejercicio 9**
+
+*Con Quorum*
+if(total<Quorum){
+  if (votoSi>0.3*total||votoNo>0.3*total)
+    print("Si||No")
+} else {
+    ("No")
+  }
+ 
+*Sin Quorum*
+if(votoSi>votoNo){
+  print("Si")
+}else {
+  print("No")
+}
 
 **Ejercicio 10**
 
