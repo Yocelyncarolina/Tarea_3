@@ -132,8 +132,34 @@ Division(3,4)
 
 #Pregunta 11
 
+assertthat::are_equal
 
+radio1<-7
+radio2<-5
+pi=3.14
 
+areafinalcirculo<-
+  function(radio1, radio2){
+   (pi*(radio1^2)-
+      pi*(radio2^2))
+  }
+
+areafinalcirculo(radio1, radio2)
+
+L1<-7
+A1<-8
+L2<-2
+A2<-3
+
+CuadradoUno<-(L1*A1)
+CuadradoDos<-(L2*A2)
+
+AreaFinalCuadrado<-
+  function(CuadradoUno, CuadradoDos){
+    (CuadradoUno-CuadradoDos)
+  }
+
+AreaFinalCuadrado(CuadradoUno, CuadradoDos)
 
 #Ejercicio opcional
 

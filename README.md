@@ -76,6 +76,27 @@ la division de (3,4) arroja un resultado 0.75
 
 **Ejercicio 11**
 
+*Funcion Area Circulo*
+
+areafinalcirculo<-
+  function(radio1, radio2){
+   (pi*(radio1^2)-
+      pi*(radio2^2))
+  }
+
+areafinalcirculo(radio1, radio2)
+
+*Funcion Area Rectangulo*
+
+CuadradoUno<-(L1*A1)
+CuadradoDos<-(L2*A2)
+
+AreaFinalCuadrado<-
+  function(CuadradoUno, CuadradoDos){
+    (CuadradoUno-CuadradoDos)
+  }
+
+AreaFinalCuadrado(CuadradoUno, CuadradoDos)
 
 **Ejercicio opcional**
 
