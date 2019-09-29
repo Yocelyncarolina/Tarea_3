@@ -114,6 +114,7 @@ Resta<-function(a,b){
 }
 
 Resta(3,4)
+
 #la resta de (3,4) arroja un resultado de -1
 
 Multiplicacion<-function(a,b){
@@ -121,6 +122,7 @@ Multiplicacion<-function(a,b){
 }
 
 Multiplicacion(3,4)
+
 #la multiplicacion de (3,4) arroja un resultado de 12
 
 Division<-function(a,b){
@@ -128,6 +130,7 @@ Division<-function(a,b){
 }
 
 Division(3,4)
+
 #la division de (3,4) arroja un resultado 0.75
 
 #Pregunta 11
